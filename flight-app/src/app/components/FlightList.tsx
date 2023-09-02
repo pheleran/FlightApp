@@ -100,7 +100,6 @@ const FlightList = () => {
                     setIsThereReturnFlight(false)
                 }
             }
-            console.log("submit")
             
         }
     });
@@ -162,7 +161,6 @@ const FlightList = () => {
         values.toAirport = option.value
 
     }
-    console.log(isThereFlight)
 
     return (
 
