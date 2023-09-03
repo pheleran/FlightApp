@@ -169,7 +169,7 @@ const FlightList = () => {
                     <form className="self-center">
                         <div className="   grid grid-cols-6 gap-10 w-75 border border-4 p-10 border-violet-300 rounded-lg bg-white align-middle">
                             <div className='grid grid-flow-row  place-content-center ' >
-                                <label> Kalkış Havaalanı</label>
+                                <label className="text-slate-600"> Kalkış Havaalanı</label>
                                 <Select
                                     className='rounded-md w-56'
                                     name="startAirport"
@@ -186,7 +186,7 @@ const FlightList = () => {
                                 ) : null}
                             </div>
                             <div className='grid grid-flow-row'>
-                                <label>Varış Havaalanı</label>
+                                <label className="text-slate-600">Varış Havaalanı</label>
                                 <Select
                                     className=' rounded-md w-56'
                                     name="endAirport"
@@ -203,7 +203,7 @@ const FlightList = () => {
                                 ) : null}
                             </div>
                             <div className='grid grid-flow-row mt-8'>
-                                <label>
+                                <label className="text-slate-600">
                                     <input
                                         className='border border-violet-600 rounded-md'
                                         type="checkbox"
@@ -216,7 +216,7 @@ const FlightList = () => {
                                 </label>
                             </div>
                             <div className='grid grid-flow-row'>
-                                <label>Gidiş Tarihi</label>
+                                <label className="text-slate-600">Gidiş Tarihi</label>
 
                                 <input type="date"
                                     id="departDate"
@@ -230,7 +230,7 @@ const FlightList = () => {
                             {
                                 values.isFlightOneWay == false &&
                                 <div className='grid grid-flow-row'>
-                                    <label>Dönüş Tarihi</label>
+                                    <label className="text-slate-600">Dönüş Tarihi</label>
                                     <input type="date"
                                         id="returnDepartDate"
                                         name="returnDepartDate"
